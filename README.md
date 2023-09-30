@@ -30,6 +30,10 @@ Annotate your security configuration class with `@EnableSecurity`. Provide a `Se
 
 Implement authentication controller with `/register` and `/authenticate` routes. Create corresponding methods in `AuthenticationService` for user authentication and registration.
 
+## Inroder to run the local container of postgres db
+try running the following command
+`
+docker-compose -f .\docker-compose.yml up -d db`.
 Happy coding! 🚀👨‍💻
-link to docs - https://docs.google.com/document/d/1xBuy9bulgxAwfsA7ZwUTZo8Hh5RhriYJ6RisY4xmEas/edit
+link to docs (for personal use only, do not try to visit this link) - https://docs.google.com/document/d/1xBuy9bulgxAwfsA7ZwUTZo8Hh5RhriYJ6RisY4xmEas/edit
 
